@@ -1,0 +1,8 @@
+#N canvas 369 168 763 654 12;
+#X obj 368 123 vsl 19 162 1 500 0 0 empty empty empty 0 -9 0 12 #e3c6ff #000000 #000000 0 1;
+#X obj 372 390 netsend;
+#X msg 370 341 connect localhost 13002;
+#X msg 369 315 send \$1;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
